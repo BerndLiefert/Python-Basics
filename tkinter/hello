@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+from tkinter import *
+
+tk = Tk()
+
+label = Label(tk, text="Hello World")
+label["font"] = "Courier 32 bold"
+label.pack()
+
+mainloop()
